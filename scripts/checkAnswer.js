@@ -1,5 +1,6 @@
 async function checkAnswer() {
-  const correctHash = "cbf5a5bbd3a188fdf39a9d59453b4c8ab3a97bbd7d8475fdf24d6402436d122e";
+  const correctHash = "3c80bfa9bf63d86a5b0d61d764c8cae77f22474b974d5d032d5a4997e99d8ec2
+";
   const userInput = document.getElementById("answer").value.trim().toLowerCase();
 
   const encoder = new TextEncoder();
